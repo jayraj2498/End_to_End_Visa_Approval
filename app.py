@@ -14,6 +14,8 @@ from us_visa_approval.pipeline.training_pipeline import TrainPipeline
 
 app = FastAPI()
 
+
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 templates = Jinja2Templates(directory='templates')
