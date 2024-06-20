@@ -1,6 +1,5 @@
 ipykernel
 pandas
-numpy
 matplotlib
 plotly
 seaborn
